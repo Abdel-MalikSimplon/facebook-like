@@ -1,0 +1,117 @@
+html { box-sizing: border-box; }
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 62.5%;
+}
+
+/* Styles du header */
+
+.header-top {
+    height: 105px; /* Hauteur du header */
+    background-color: #3d5b99; /* Sa couleur */
+    border-bottom: 1px solid black;
+}
+
+.wrapper {
+    width: 960px; /* Bloc container qui permet de centrer l'élément */
+    margin: 0 auto; /* suppréssion des marges hautes et basses et centrage de l'élément. */
+}
+
+.logo {
+    float: left; /* Le logo est placé à gauche */
+    font-size: 4em; /* Etant sous forme de texte, je lui donne une taille de 3.2em (32px) */
+    line-height: 100px; /* Je centre verticalement l'élément avec la propriété line-height: (hauteur de ligne) */
+}
+
+.connexion {
+    width: 451px;
+    height: 84px;
+    float: right;
+    margin-top: 25px;
+    color: white;
+}
+
+.form {
+    font-size: 1.6em;
+}
+
+.form label+label {
+    margin-left: 30px;
+}
+
+
+.form .input {
+    width: 164px;
+    height: 23px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.form .input+.input {
+    margin-left: 30px;
+}
+
+
+.btn-connexion {
+    height: 23px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+input {
+    margin: 8px 0px 0 0;
+}
+
+.left {
+    padding-left: 5px;
+}
+
+.password-reset {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    width: 530px;
+    float: left;
+    margin-top: 50px;
+    font-size: 1.6em;
+    color: #0e385f;
+}
+
+.inscription {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    float: right;
+    font-size: 1.8em;
+}
+
+.inscription h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.prenom {
+    border-color: #BDC7D8;
+    border-radius: 5px;
+    margin: 0;
+    padding: 6px;
+    width: 180px;
+    height: 20px;
+}
+
+[placeholder] {
+    font-size: 1.2em;
+}
